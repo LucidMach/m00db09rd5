@@ -1,0 +1,24 @@
+---
+import Form from "../components/form";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="M00DB09RD5 | Sign Up">
+  <main
+    class="w-full h-full flex justify-center items-center bg-gray-200 flex-col text-gray-400 text-center"
+  >
+    <h1 class="text-5xl text-center">
+      <span class="text-gray-50">M00D</span>
+      <span class="text-gray-600">B09RD5</span>
+    </h1>
+    <h3 class="text-gray-400 text-center">
+      the AI moodboard generator you want
+    </h3>
+    <br />
+    <p class="text-xs">
+      we're please to inform you that our beta version is out! 🥳
+    </p>
+    <p class="text-xs">enter your email to get access</p>
+    <Form client:idle />
+  </main>
+</Layout>
